@@ -32,3 +32,9 @@ print(onePiece[2])
 onePiece.insert(2, 'Brook')
 print(onePiece[2])
 print(onePiece)
+
+'We can also remove an item from array by using del statement'
+
+animals = ['Elephant', 'Lion', 'Tiger', 'Crockodile']
+del animals[2]
+print(animals)
