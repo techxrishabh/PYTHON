@@ -1,3 +1,6 @@
+"::::::::::::::::::: INTRO TO NUMBERS ::::::::::::::::::::"
+
+
 ''' ========================== Underscores in Numbers ====================== '''
 
 
@@ -52,6 +55,3 @@ that message
 '''
 favouritenumber = 10
 print(favouritenumber)
-
-import this
-The Zen of Python, by Tim Peters
