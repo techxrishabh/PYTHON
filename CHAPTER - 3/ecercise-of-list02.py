@@ -112,3 +112,7 @@ print(myGuest)
 del myGuest[0]
 
 print(myGuest)
+
+# We can calculate then length of a list by using len function ===============
+
+print(len(myGuest))
