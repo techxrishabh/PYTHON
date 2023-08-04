@@ -22,6 +22,7 @@ Print the list to show that its order has changed'''
 # SOLUTION =========================================================================
 
 locations = ['america', 'japan', 'italy', 'russia', 'united-kingdom']
+
 print(locations)
 print(sorted(locations))
 print(locations)
