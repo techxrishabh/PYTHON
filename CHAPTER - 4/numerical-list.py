@@ -26,5 +26,44 @@ as a step size when generating numbers.'''
 
 print('here’s how to list the even numbers between 1 and 10')
 
-even_numbers = list(range(1, 11, 2))
-print(even_numbers)
+odd_numbers = list(range(1, 11, 2))
+print(odd_numbers)
+
+
+# make a list of the first 10 square no.
+print('make a list of the first 10 square no.')
+square = []
+for value in range(1, 11):
+    squares = value ** 2
+    square.append(squares)
+
+print(square)
+
+# we can also write this code like this =====================
+
+squares = []
+for value in range(1, 11):
+    squares.append(value**2)
+
+print(squares)
+
+# Simple Statistics with a List of Numbers ====================
+'''WE CAN FIND MINIMUM, MAXIMUM AND SUM OF A LIST OF NUMBERS'''
+
+digits = [1, 2, 3, 4, 5, 6, 7, 8, 9, 0]
+print('minimum')
+print(min(digits))
+print('maximum')
+print(max(digits))
+print('sum of the digits')
+print(sum(digits))
+
+
+# List Comprehensions  ============================
+'''A list comprehension allows you to generate
+this same list in just one line of code. A list comprehension combines the
+for loop and the creation of new elements into one line, and automatically
+appends each new element'''
+
+squares = [value**2 for value in range(1, 11)]
+print(squares)
